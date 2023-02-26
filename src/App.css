@@ -1,0 +1,72 @@
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.markdown{
+  width: 98%;
+  height: 100%;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+  color: hsl(209, 34%, 30%);
+}
+
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+blockquote {
+  font-size: 2rem;
+  font-style: italic;
+  border-left: 5px solid hsl(210, 22%, 49%);
+  color: hsl(210, 22%, 49%);
+  padding-left: 2rem;
+  line-height: 2;
+  margin-bottom: 1.5rem;
+}
+blockquote ::first-letter {
+  text-transform: uppercase;
+}
+pre {
+  background: #222;
+  display: inline-block;
+  border-radius: 0.25rem;
+  padding: 1rem 2rem;
+  color: yellow;
+  margin-bottom: 1.5rem;
+}
