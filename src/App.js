@@ -1,6 +1,6 @@
 import './App.css';
-import Markdowninput from './Component/Markdowninput';
-import Result from './Component/Result';
+import Markdowninput from './Components/Markdowninput';
+import Result from './Components/Result';
 import { useState } from 'react';
 
 function App() {
